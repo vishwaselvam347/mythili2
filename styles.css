@@ -1,0 +1,67 @@
+/* Global Styles */
+body {
+    background-color: #f8f9fa; /* Light background */
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Container */
+.container {
+    background-color: #fff; /* White background for the form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+/* Form Title */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #007bff; /* Blue color for heading */
+}
+
+/* Input Fields */
+.form-control {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+/* Error Messages */
+.error {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 5px;
+}
+
+/* Submit Button */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 15px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004080;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        margin: 20px;
+    }
+}
